@@ -18,13 +18,13 @@ const Widget = ({ type }) => {
                 isMoney: false,
                 link: "See all users",
                 icon: (
-                    <PersonOutlineOutlinedIcon 
+                    <PersonOutlineOutlinedIcon
                         className="icon"
                         style={{
-                            color:"crimson",
+                            color: "crimson",
                             backgroundColor: "rgba(255,0,0,0.2)"
-                        }}    
-                        
+                        }}
+
                     />)
             };
             break;
@@ -34,13 +34,13 @@ const Widget = ({ type }) => {
                 isMoney: false,
                 link: "View all orders",
                 icon: (
-                    <ShoppingCartOutlinedIcon 
+                    <ShoppingCartOutlinedIcon
                         className="icon"
                         style={{
-                            color:"goldenrod",
+                            color: "goldenrod",
                             backgroundColor: "rgba(218,165,32,0.2)"
-                        }}    
-                     />)
+                        }}
+                    />)
             };
             break;
         case "earning":
@@ -49,13 +49,13 @@ const Widget = ({ type }) => {
                 isMoney: true,
                 link: "View net earnings",
                 icon: (
-                    <MonetizationOnOutlinedIcon 
+                    <MonetizationOnOutlinedIcon
                         className="icon"
                         style={{
-                            color:"green",
+                            color: "green",
                             backgroundColor: "rgba(0,128,0,0.2)"
-                        }}    
-                     />)
+                        }}
+                    />)
             };
             break;
         case "balance":
@@ -64,13 +64,13 @@ const Widget = ({ type }) => {
                 isMoney: true,
                 link: "See details",
                 icon: (
-                    <AccountBalanceWalletOutlinedIcon 
+                    <AccountBalanceWalletOutlinedIcon
                         className="icon"
                         style={{
-                            color:"purple",
+                            color: "purple",
                             backgroundColor: "rgba(128,0,128,0.2)"
-                        }}    
-                     />)
+                        }}
+                    />)
             };
             break;
 
